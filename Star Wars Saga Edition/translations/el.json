@@ -1,11 +1,11 @@
 {
     "character-sheet": "Character Record Sheet",
-    "level": "Level",
+    "level": "Επίπεδο",
     "background": "Background:",
-    "species": "Species:",
-    "destiny": "Destiny:",
-    "gender": "Gender:",
-    "size": "Size:",
+    "species": "Species",
+    "destiny": "Destiny",
+    "gender": "Gender",
+    "size": "Size",
     "size-colossal": "Colossal",
     "size-gargantuan": "Gargantuan",
     "size-huge": "Huge",
@@ -43,9 +43,9 @@
     "dark_side_points": "Dark Side Pts",
     "perception": "Perception",
     "initiative": "Initiative",
-    "init_dex_decimal": "Dex Score as Decimal",
+    "init_decimal": "Initiative as Decimal",
     "grapple": "Grapple",
-    "mod": "Mod",
+    "mod": "Τροποποίηση",
     "str": "STR",
     "dex": "DEX",
     "defenses": "Defenses",
@@ -57,5 +57,6 @@
     "int": "INT",
     "wis": "WIS",
     "cha": "CHA",
-    "flatfooted": "Flatfooted"
+    "flatfooted": "Flatfooted",
+    "second-wind": "Second Wind"
 }

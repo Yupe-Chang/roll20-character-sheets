@@ -1,0 +1,357 @@
+/* General Styling */
+
+
+.container {
+  background-image: url("https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Heart-the-City-Beneath-mk2/Heart-bg.png");
+  background-size: cover;
+  background-repeat: repeat;
+  min-width: 620px; 
+}
+
+img.logo{
+  height:140px;
+  margin-bottom: 0em;
+}
+
+.container div {
+  padding: 2px;
+  margin: 2px;
+  vertical-align: top;
+}
+
+.score label {
+    text-align: center;
+}
+
+
+.attributes{
+    flex: 1 1 50%;
+    display: flex;
+    padding: 0;
+    text-align: center;
+}
+
+
+.attributes .score {
+    flex: 1 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px 0 5px 5px;
+    border: 8px solid gray;
+    border-radius: 40px;
+    min-height: 8.3em;
+    min-width: 8em;
+}
+
+
+.attributes .components {
+    margin: 1.7em;
+    margin-left: -2px;
+    min-height: 7em;
+    border: 2px solid gray;
+    border-left: 0;
+}
+
+
+.button-roll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 75%;
+  height: 100%;
+  border: 0;
+  border-radius: 10px;
+  color: black;
+  font-size: 2.2em;
+  font-weight: bolder;
+  height: 2em;
+}
+
+button[type="roll"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 3px solid red;
+  background-color: silver;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+.button-roll2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  height: 80%;
+  border: 0;
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+  font-size: 2.2em;
+  font-weight: bolder;
+  height: 2em;
+}
+
+
+img {
+  margin-bottom: 1em;
+}
+
+
+p {
+  padding: .5em;
+}
+
+
+/* Inputs, textarea defaults */
+
+.score input {
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 6em;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 2em !important; /* required due to overly specific Roll20 defaults */
+}
+
+.other .score input {
+    font-size: 5em;
+}
+
+.hitpoints .score:not(:last-child) input {
+    border-right: 1px solid black;
+}
+
+input[type="text"] {
+  margin-top: .01;
+  line-height: 1.2;
+  margin-right: 0;
+  padding-right: 0;
+  max-width: 100%;
+}
+
+textarea {
+  width: 100%;
+  line-height: 32px;
+  
+}
+
+input[type="text"], select, textarea {
+  vertical-align: top;
+}
+
+
+
+/* Adjusting repeating-item button placement */
+
+
+/* Font & text color-related formatting */
+
+h1, h2, h3, h4, h5, h6, .redtext, .pinktext, .whiteonredtext {
+  text-transform: uppercase;
+}
+
+.redtext {
+  font-weight: bold;
+  color: #a00a03;
+}
+
+span.redtext {
+  font-size: 2.2em;
+}
+
+.redtext input[type="text"] {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+.pinktext {
+  color: #c33d37;
+}
+
+.whiteonredtext {
+  color: white;
+  background-color: #a00a03;
+  padding: .2em;
+}
+
+.rightalign {
+  text-align: right;
+}
+
+.small-text p {
+  font-size: xxx-large;
+}
+
+
+/* Flex displays */
+
+.flex {
+  display: flex;
+}
+
+.flex-align-start {
+  align-items: flex-start;
+}
+
+.flex-around {
+  justify-content: space-around;
+}
+
+.flex-between {
+  justify-content: space-between;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-even {
+  justify-content: space-evenly;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-grow-2 {
+  flex-grow: 2;
+}
+
+textarea.flex-grow-2 {
+  height: 15px;
+}
+
+
+/* Width-related formatting */
+
+.width100 {
+  width: 100px;
+  max-width: 100px;
+}
+
+.width200 {
+  width: 200px;
+  max-width: 200px;
+}
+
+.twentywide {
+  display: inline-block;
+  max-width: 18%;
+  width: 18%;
+}
+
+.quarterwide {
+  display: inline-block;
+  max-width: 23%;
+  width: 23%;
+}
+
+.thirdwide {
+  display: inline-block;
+  max-width: 33%;
+  width: 33%;
+}
+
+.fortywide {
+  display: inline-block;
+  max-width: 37%;
+  width: 37%;
+}
+
+.halfwide {
+  display: inline-block;
+  max-width: 46%;
+  width: 46%;
+}
+
+.threequarterswide {
+  display: inline-block;
+  max-width: 80%;
+  width: 80%;
+}
+
+.fullwide {
+  display: inline-block;
+  max-width: 96%;
+  width: 96%;
+}
+
+
+/* Miscellaneous formatting */
+
+.inline-block {
+  display: inline-block;
+}
+
+.no-display {
+  display: none;
+}
+
+input[type="text"].input-large{
+   font-size: 24pt; 
+   justify-content: left;
+   align-items: left;
+   text-align: left;
+}
+
+input[type="number"].input-large {
+   font-size: 24pt; 
+   justify-content: right;
+   align-items: right;
+   text-align: right;
+}
+
+input[type="text"].input-medium {
+   font-size: 18pt; 
+   justify-content: left;
+   align-items: left;
+   text-align: left;
+}
+
+input[type="number"].input-medium {
+   font-size: 18pt; 
+   justify-content: right;
+   align-items: right;
+   text-align: right;
+}
+
+input[type="number"].46h{
+  height: 46.5px;
+  justify-content: right;
+  align-items: right;
+  text-align: right;
+}
+
+textarea.kitty-desc{
+  min-height: 260px;
+  font-size: 18pt;
+  margin: 5px 0px;
+}
+
+.repcontainer textarea{
+  line-height: 20px;
+  font-size: 18pt;
+  height: 120px;
+}
+
+hr {
+    display: block;
+    height: 10px;
+    border: 0;
+    border-top: 10px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
